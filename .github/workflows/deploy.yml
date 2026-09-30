@@ -27,6 +27,6 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.GSEC_TOKEN }}
+        github_token: ${{ secrets.GSECTOKEN }}
         publish_dir: ./public  # Adjust this path based on where your build output is
 #Access your app via https://your-username.github.io/repository-name/
